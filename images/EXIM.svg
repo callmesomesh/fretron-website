@@ -1,0 +1,27 @@
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M37.1241 0C22.8571 0 11.2491 11.6079 11.2491 25.875C11.2491 40.1421 22.8571 51.75 37.1241 51.75C51.3912 51.75 62.9991 40.1421 62.9991 25.875C62.9991 11.6079 51.3912 0 37.1241 0Z" fill="url(#paint0_linear_409_51313)"/>
+<g clip-path="url(#clip0_409_51313)">
+<path d="M33.0753 60.5062H64.5447" stroke="black" stroke-width="3.37" stroke-miterlimit="10"/>
+<path d="M51.7318 39.1518L57.3513 33.5322L62.9709 39.1518" stroke="black" stroke-width="3.37" stroke-miterlimit="10"/>
+<path d="M57.3517 53.7626V33.5322" stroke="black" stroke-width="3.37" stroke-miterlimit="10"/>
+<path d="M34.198 39.1518L39.8175 33.5322L45.4371 39.1518" stroke="black" stroke-width="3.37" stroke-miterlimit="10"/>
+<path d="M39.8177 53.7626V33.5322" stroke="black" stroke-width="3.37" stroke-miterlimit="10"/>
+<mask id="mask0_409_51313" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="7" y="8" width="40" height="42">
+<path d="M7 8.80627V49.2669H33.0746V30.74L39.8181 23.9966L46.5615 30.74V8.80627H7Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_409_51313)">
+<path d="M44.3143 11.0543H9.24841V47.0193H44.3143V11.0543Z" stroke="black" stroke-width="3.37" stroke-miterlimit="10"/>
+</g>
+<path d="M31.2767 11.0543V20.0455H22.2854V11.0543" stroke="black" stroke-width="3.37" stroke-miterlimit="10"/>
+<path d="M15.9911 38.0278H24.9823" stroke="black" stroke-width="3.37" stroke-miterlimit="10"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_409_51313" x1="25.4991" y1="-5.2876" x2="62.9992" y2="111.712" gradientUnits="userSpaceOnUse">
+<stop stop-color="#01BDE0" stop-opacity="0.1"/>
+<stop offset="1" stop-color="#01BDE0"/>
+</linearGradient>
+<clipPath id="clip0_409_51313">
+<rect width="57.56" height="57.56" fill="white" transform="translate(7 7)"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,37 @@
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M37.124 0C22.8569 0 11.249 11.6079 11.249 25.875C11.249 40.1421 22.8569 51.75 37.124 51.75C51.3911 51.75 62.999 40.1421 62.999 25.875C62.999 11.6079 51.3911 0 37.124 0Z" fill="url(#paint0_linear_1025_42131)"/>
+<g clip-path="url(#clip0_1025_42131)">
+<mask id="mask0_1025_42131" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="6" y="7" width="59" height="58">
+<path d="M6.99805 6.9986H64.558V64.5586H6.99805V6.9986Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_1025_42131)">
+<path d="M30.7202 56.0117H8.68555V45.8938H30.7202V56.0117Z" stroke="black" stroke-width="3.37266" stroke-linecap="round"/>
+</g>
+<path d="M52.642 56.0156H30.7197V45.8977H52.642V56.0156Z" stroke="black" stroke-width="3.37266" stroke-linecap="round"/>
+<path d="M40.8383 45.8945H18.916V35.7766H40.8383V45.8945Z" stroke="black" stroke-width="3.37266" stroke-linecap="round"/>
+<mask id="mask1_1025_42131" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="6" y="7" width="59" height="58">
+<path d="M6.99805 6.9986H64.558V64.5586H6.99805V6.9986Z" fill="white"/>
+</mask>
+<g mask="url(#mask1_1025_42131)">
+<path d="M62.8726 45.8945H40.8379V35.7766H62.8726V45.8945Z" stroke="black" stroke-width="3.37266" stroke-linecap="round"/>
+<path d="M30.7202 35.7773H8.68555V25.6594H30.7202V35.7773Z" stroke="black" stroke-width="3.37266" stroke-linecap="round"/>
+</g>
+<path d="M52.642 35.7773H30.7197V25.6594H52.642V35.7773Z" stroke="black" stroke-width="3.37266" stroke-linecap="round"/>
+<path d="M40.8383 25.6602H18.916V15.5422H40.8383V25.6602Z" stroke="black" stroke-width="3.37266" stroke-linecap="round"/>
+<mask id="mask2_1025_42131" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="6" y="7" width="59" height="58">
+<path d="M6.99805 6.9986H64.558V64.5586H6.99805V6.9986Z" fill="white"/>
+</mask>
+<g mask="url(#mask2_1025_42131)">
+<path d="M62.8716 25.6602H40.8369V15.5422H62.8716V25.6602Z" stroke="black" stroke-width="3.37266" stroke-linecap="round"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_1025_42131" x1="25.499" y1="-5.2876" x2="62.999" y2="111.712" gradientUnits="userSpaceOnUse">
+<stop stop-color="#01BDE0" stop-opacity="0.1"/>
+<stop offset="1" stop-color="#01BDE0"/>
+</linearGradient>
+<clipPath id="clip0_1025_42131">
+<rect width="57.56" height="57.56" fill="white" transform="translate(7 7)"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,457 @@
+<!DOCTYPE html><!--  Last Published: Fri Feb 20 2026 16:18:58 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="68c57e45b95895d194bb0ff9" data-wf-site="67c8721fe4e9ced3083364f7" lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>abm-deep-dive)</title>
+  <meta content="abm-deep-dive)" property="og:title">
+  <meta content="abm-deep-dive)" property="twitter:title">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="WvSVXo6l8Odxx77A2EFhrwoPnWJc7Vyc-Zgn2YKmgOQ" name="google-site-verification">
+  <link href="../css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="../css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="../css/stagingfretron.webflow.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Mulish:300,400,500,600,700"]  }});</script>
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="../images/favicon.jpg" rel="shortcut icon" type="image/x-icon">
+  <link href="../images/webclip.jpg" rel="apple-touch-icon">
+  <link href="https://fretron.com/careers/abm-deep-dive" rel="canonical"><!--  Keep this css code to improve the font quality -->
+  <style>
+  * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -o-font-smoothing: antialiased;
+  -webkit-appearance:none;
+}
+</style>
+  <!--  Google Tag Manager  -->
+  <script>
+  (function(w,d,s,l,i){
+    w[l]=w[l]||[];
+    w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});
+    var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+    j.async=true;
+    j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+    f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-M8976QN');
+</script>
+  <!--  End Google Tag Manager  -->
+  <script src="https://cdn.prod.website-files.com/67c8721fe4e9ced3083364f7%2F66ba5a08efe71070f98dd10a%2F681b622b181f3aabf7955072%2Fm8976qn-1.1.1.js" type="text/javascript"></script>
+</head>
+<body>
+  <section>
+    <div class="w-layout-blockcontainer w-container">
+      <div class="w-embed w-script">
+        <div id="fretron-deepdive" style="font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial; line-height:1.5; color:#101113; max-width:980px; margin:40px auto; padding:24px; border:1px solid #e6e8ef; border-radius:16px;">
+          <style>
+    #fretron-deepdive h1{margin:0 0 6px;font-size:24px;letter-spacing:-0.2px}
+    #fretron-deepdive h2{margin:18px 0 8px;font-size:18px}
+    #fretron-deepdive p.muted{color:#6b6c74;font-size:13px;margin:6px 0 0}
+    #fretron-deepdive .card{background:#f7f8fb;border:1px solid #e6e8ef;border-radius:12px;padding:14px;margin:12px 0}
+    #fretron-deepdive table{width:100%;border-collapse:collapse;margin:8px 0}
+    #fretron-deepdive th,#fretron-deepdive td{border-bottom:1px solid #eceff5;padding:8px;text-align:left;font-size:13px}
+    #fretron-deepdive th{font-weight:600;background:#fafbff}
+    #fretron-deepdive input[type="text"],#fretron-deepdive input[type="email"], #fretron-deepdive input[type="number"], #fretron-deepdive textarea{width:100%;padding:10px;border:1px solid #d6d8e1;border-radius:10px;font-size:14px}
+    #fretron-deepdive textarea{min-height:80px}
+    #fretron-deepdive .row{display:grid;grid-template-columns:1fr 1fr; gap:12px}
+    #fretron-deepdive .btn{display:inline-block; padding:10px 14px; border-radius:10px; border:1px solid #295bff; background:#295bff; color:#fff; font-weight:600; cursor:pointer}
+    #fretron-deepdive .btn.secondary{border-color:#c7c9d6; background:#fff; color:#101113}
+    #fretron-deepdive .pill{display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;border:1px solid #d6d8e1;color:#6b6c74;margin-left:6px}
+    #fretron-deepdive .grid2{display:grid;grid-template-columns:1fr 1fr; gap:10px}
+    #fretron-deepdive .timer{font-variant-numeric:tabular-nums; font-weight:700; color:#003bbf}
+    #fretron-deepdive .header{display:flex; align-items:center; justify-content:space-between; gap:12px}
+    #fretron-deepdive .brand{display:flex; align-items:center; gap:10px}
+    #fretron-deepdive .brand .dot{width:12px;height:12px;border-radius:50%;background:linear-gradient(135deg,#003bbf,#295bff)}
+    @media(max-width:720px){ #fretron-deepdive .row,#fretron-deepdive .grid2,#fretron-deepdive .header{grid-template-columns:1fr; flex-direction:column; align-items:flex-start} }
+  </style>
+          <div class="header">
+            <div class="brand">
+              <div class="dot"></div>
+              <h1>Fretron — 45-min ABM Deep Dive</h1>
+            </div>
+            <div><span class="pill">Seed: <span id="seed"></span></span> <span class="pill">Time: <span id="timer" class="timer">45:00</span></span></div>
+          </div>
+          <p class="muted">Open-book. Design a realistic plan tied to business outcomes. We value clarity, guardrails, and ROI thinking.</p>
+          <div class="card">
+            <div class="grid2">
+              <div><label>Full name</label><input id="cName" type="text" required=""></div>
+              <div><label>Email</label><input id="cEmail" type="email" required=""></div>
+              <div><label>LinkedIn URL</label><input id="cLI" type="text"></div>
+            </div>
+            <div style="margin-top:12px; display:flex; gap:10px">
+              <button id="start" class="btn">Start deep dive (fullscreen)</button>
+              <button id="reset" class="btn secondary">Reset</button>
+            </div>
+          </div>
+          <div id="test" style="display:none">
+            <div class="card">
+              <h2>Scenario</h2>
+              <p>Fretron wants to run a 30-day ABM pilot for India-based manufacturers/retailers to book meetings for supply-chain leaders (and/or digital transformation). Budget ₹3L. You’ll pick 5 target accounts, outline an AI-assisted workflow, define guardrails, and project outcomes.</p>
+              <div id="dataset"></div>
+            </div>
+            <div class="card">
+              <h2>Task A — Micro-brief (10 pts)</h2>
+              <p class="muted">In ≤4 bullets: target persona & pain, success KPI, constraints (data/compliance), key wedge.</p>
+              <textarea id="brief"></textarea>
+            </div>
+            <div class="card">
+              <h2>Task B — Pick 5 accounts (25 pts)</h2>
+              <p class="muted">Select 5 from the table. Avoid anomalies (non-ICP, DNC, competitor-locked).</p>
+              <div id="picks"></div>
+            </div>
+            <div class="card">
+              <h2>Task C — Workflow & guardrails (20 pts)</h2>
+              <p class="muted">Outline a 6-step agentic workflow with model/tool choices, <b>two sentinel tests</b>, fallback, and cost/latency caps.</p>
+              <textarea id="flow"></textarea>
+            </div>
+            <div class="card">
+              <h2>Task D — ROI math (15 pts)</h2>
+              <p class="muted">You’ll contact 1,500 prospects across chosen accounts. Baseline reply 1.5%, uplift 40% after better targeting. 30% of replies → meetings, 40% of meetings → SQLs. Expected meetings? SQLs?</p>
+              <div class="row">
+                <input id="meet" type="number" placeholder="Meetings">
+                <input id="sqls" type="number" placeholder="SQLs">
+              </div>
+            </div>
+            <div class="card">
+              <h2>Task E — Compliance & trust (10 pts)</h2>
+              <p class="muted">Select all issues in: “We scraped emails from LinkedIn. As a GDPR-certified vendor we don’t need opt-outs. Click to confirm you want updates.”</p>
+              <label><input type="checkbox" class="tE" value="scrape"> Scraped emails claim</label><br>
+              <label><input type="checkbox" class="tE" value="gdpr"> “GDPR-certified” claim</label><br>
+              <label><input type="checkbox" class="tE" value="optout"> Missing opt-out</label><br>
+              <label><input type="checkbox" class="tE" value="consent"> Implied consent</label><br>
+              <label><input type="checkbox" class="tE" value="none"> None of the above</label>
+            </div>
+            <div class="card">
+              <h2>Task F — Prototype prompt + eval plan (20 pts)</h2>
+              <p class="muted">Write one prompt you’d actually ship for first-draft personalization <i>and</i> a 3-check evaluation plan to keep quality high.</p>
+              <textarea id="proto"></textarea>
+              <div style="margin-top:10px"><label>Tool-use log (optional)</label><textarea id="tools"></textarea></div>
+            </div>
+            <div style="display:flex; gap:10px; margin-top:10px;">
+              <button id="submit" class="btn">Submit</button>
+              <button id="copy" class="btn secondary">Copy results</button>
+              <button id="download" class="btn secondary">Download JSON</button>
+            </div>
+            <div id="result" class="card" style="display:none"></div>
+          </div>
+        </div>
+        <script>
+(function(){
+  const WEBHOOK_URL = ""; // optional webhook
+  const DURATION_MINUTES = 45;
+  let testStarted=false;
+  // light proctoring
+  let suspicion=0, tabLeaves=0, copyEvents=0, pasteEvents=0;
+  document.addEventListener('visibilitychange', ()=>{ if(document.hidden){ tabLeaves++; suspicion+=1; }});
+  window.addEventListener('blur', ()=>{ suspicion+=0.5; });
+  document.addEventListener('copy', ()=>{ copyEvents++; suspicion+=0.25; });
+  document.addEventListener('paste', ()=>{ pasteEvents++; suspicion+=0.25; });
+  // RNG
+  function strToSeed(s){ let h=2166136261>>>0; for(let i=0;i<s.length;i++){ h^=s.charCodeAt(i); h+= (h<<1)+(h<<4)+(h<<7)+(h<<8)+(h<<24);} return h>>>0;}
+  function mulberry32(a){ return function(){ var t=a+=0x6D2B79F5; t=Math.imul(t^t>>>15, t|1); t^=t+Math.imul(t^t>>>7, t|61); return ((t^t>>>14)>>>0)/4294967296; } }
+  const seed = new Date().toISOString().slice(0,10).replace(/-/g,'') + '-' + Math.random().toString(36).slice(2,6);
+  document.getElementById('seed').textContent = seed;
+  const rand = mulberry32(strToSeed(seed));
+  const industriesGood = ['FMCG','Cement','Pharma','Automotive','Steel','Retail','Electronics','Chemicals','Textiles','Beverages'];
+  const names = Array.from({length:40}, (_,i)=>'Acct '+(i+1));
+  function genAccounts(){
+    let rows=[];
+    for(let i=0;i<40;i++){
+      const industry = industriesGood[Math.floor(rand()*industriesGood.length)];
+      const company = names[i];
+      const plants = 1+Math.floor(rand()*6);
+      const shipments = 200 + Math.floor(rand()*2000);
+      const ontime = 75 + Math.floor(rand()*26); // 75-100
+      const dwell = 1 + Math.floor(rand()*10);   // 1-10
+      const tmsOptions = ['None','Legacy','Competitor-locked','Homegrown'];
+      const tms = tmsOptions[Math.floor(rand()*tmsOptions.length)];
+      let note = '';
+      let icpScore = 0;
+      if(plants>=3) icpScore += 1;
+      if(shipments>=800) icpScore += 2;
+      if(ontime<=90) icpScore += 2;
+      if(dwell>=5) icpScore += 2;
+      if(tms==='None'||tms==='Legacy'||tms==='Homegrown') icpScore += 1;
+      if(tms==='Competitor-locked') icpScore -= 2;
+      rows.push({i, company, industry, plants, shipments, ontime, dwell, tms, note, icpScore});
+    }
+    // anomalies
+    for(let k=0;k<3;k++){
+      const idx = Math.floor(rand()*40);
+      rows[idx].industry = (k===0)?'3PL Aggregator': rows[idx].industry;
+      rows[idx].note = (k===0)?'Non-ICP: 3PL aggregator': (k===1)?'Do Not Contact: Active RFP/NDA':'Competitor escalations';
+      rows[idx].icpScore -= 4;
+    }
+    const eligible = rows.filter(r => !r.note && r.tms!=='Competitor-locked').sort((a,b)=>b.icpScore-a.icpScore);
+    const top5 = eligible.slice(0,5).map(r=>r.i);
+    return {rows, top5};
+  }
+  const data = genAccounts();
+  function renderTable(){
+    const datasetDiv = document.getElementById('dataset');
+    const picksDiv = document.getElementById('picks');
+    let html = '<table><thead><tr><th>#</th><th>Company</th><th>Industry</th><th>Plants</th><th>Shipments/mo</th><th>OTD %</th><th>Dwell h</th><th>TMS</th><th>Notes</th></tr></thead><tbody>';
+    data.rows.forEach((r,idx)=>{
+      html += `<tr><td>${idx+1}</td><td>${r.company}</td><td>${r.industry}</td><td>${r.plants}</td><td>${r.shipments}</td><td>${r.ontime}</td><td>${r.dwell}</td><td>${r.tms}</td><td>${r.note||''}</td></tr>`;
+    });
+    html += '</tbody></table>';
+    datasetDiv.innerHTML = html;
+    let p = '<table><thead><tr><th>Select</th><th>Company</th><th>Industry</th><th>Hint</th></tr></thead><tbody>';
+    data.rows.forEach((r,idx)=>{
+      p += `<tr><td><input type="checkbox" class="pick" data-idx="${r.i}"></td><td>${r.company}</td><td>${r.industry}</td><td>${r.note || (r.tms==='Competitor-locked'?'Competitor-locked':'')}</td></tr>`;
+    });
+    p += '</tbody></table><p class="muted">Select exactly 5.</p>';
+    picksDiv.innerHTML = p;
+  }
+  // timer + fullscreen
+  const timerEl = document.getElementById('timer');
+  let tick=null, endAt=null;
+  async function goFullscreen(){
+    const el = document.documentElement;
+    if (el.requestFullscreen) await el.requestFullscreen();
+  }
+  function startTimer(){
+    endAt = Date.now() + DURATION_MINUTES*60*1000;
+    tick = setInterval(()=>{
+      const left = Math.max(0, endAt - Date.now());
+      const m = Math.floor(left/60000), s = Math.floor((left%60000)/1000);
+      timerEl.textContent = String(m).padStart(2,'0')+':'+String(s).padStart(2,'0');
+      if(left<=0){ clearInterval(tick); lockForm(); }
+    }, 250);
+  }
+  function lockForm(){
+    document.querySelectorAll('#fretron-deepdive input, #fretron-deepdive textarea').forEach(el => el.disabled = true);
+    document.getElementById('submit').disabled = true;
+  }
+  // scoring
+  function score(){
+    const name = document.getElementById('cName').value.trim();
+    const email = document.getElementById('cEmail').value.trim();
+    const li = document.getElementById('cLI').value.trim();
+    // Task B (25)
+    const chosen = [...document.querySelectorAll('.pick:checked')].map(x=>+x.dataset.idx);
+    let b=0, bnotes=[];
+    if(chosen.length!==5){ bnotes.push('Must pick exactly 5.'); }
+    const top5 = new Set(data.top5);
+    chosen.forEach(idx=>{
+      if(top5.has(idx)) { b+=5; bnotes.push('Top fit: '+data.rows[idx].company); }
+      else if(data.rows[idx].note){ b-=3; bnotes.push('Picked anomaly: '+data.rows[idx].company); }
+      else if(data.rows[idx].tms==='Competitor-locked'){ b-=2; bnotes.push('Competitor-locked: '+data.rows[idx].company); }
+      else if(data.rows[idx].icpScore>=4){ b+=3; }
+      else { b+=1; }
+    });
+    b = Math.max(0, Math.min(25, Math.round(b)));
+    // Task D ROI (15) meetings, SQLs with tolerance
+    const meetings = Number(document.getElementById('meet').value);
+    const sqls = Number(document.getElementById('sqls').value);
+    const replies = Math.round(1500 * 0.015 * 1.40); // 31.5 -> ~32
+    const correctMeet = Math.round(replies * 0.30);  // ~10
+    const correctSQL  = Math.round(correctMeet * 0.40); // ~4
+    let d=0;
+    if(!isNaN(meetings)){ const dm=Math.abs(meetings-correctMeet); d += (dm===0?8: dm===1?6: dm===2?4:0); }
+    if(!isNaN(sqls)){ const ds=Math.abs(sqls-correctSQL); d += (ds===0?7: ds===1?5: ds===2?3:0); }
+    // Task E compliance (10)
+    const eSel = new Set([...document.querySelectorAll('.tE:checked')].map(i=>i.value));
+    const eCorrect = new Set(['scrape','gdpr','optout','consent']);
+    let e=0;
+    if(eCorrect.size === [...eSel].filter(v=>eCorrect.has(v)).length && !eSel.has('none')) e=10;
+    else e = Math.max(0, 10 - (eCorrect.size - [...eSel].filter(v=>eCorrect.has(v)).length)*2 - (eSel.has('none')?4:0));
+    // Heuristic scores for text tasks
+    function textScore(id, keys, max){ const v=(document.getElementById(id).value||'').toLowerCase(); let s=0; keys.forEach(k=>{ if(v.includes(k)) s+= max/keys.length;}); return Math.min(max, Math.round(s)); }
+    const a = textScore('brief', ['persona','kpi','constraint','privacy','compliance','wedge','dwell','otd','plant head','digital transformation'], 10);
+    const c = textScore('flow', ['sentinel','guardrail','fallback','cost','latency','human-in-the-loop','eval','ab test','prompt','source','roi'], 20);
+    const f = textScore('proto', ['prompt','criteria','precision','sources','tone','hallucination','eval','guardrail','reject','rewrite'], 20);
+    const total = a + b + c + d + e + f;
+    const band = total>=85?'Outstanding': total>=70?'Strong': total>=55?'Promising':'Needs work';
+    // crude FLUENT estimate
+    let fluent='Capable';
+    if(total>=70 && c>=12) fluent='Adoptive';
+    if(total>=85 && c>=16 && f>=16) fluent='Transformative';
+    const payload = {
+      seed,
+      submittedAt: new Date().toISOString(),
+      candidate: {name, email, linkedIn: li},
+      picks: chosen,
+      answerKey: {top5: data.top5},
+      scores: {a,b,c,d,e,f,total,band,fluent},
+      proctor: {
+        suspicion, tabLeaves, copyEvents, pasteEvents,
+        ua: navigator.userAgent,
+        tz: Intl.DateTimeFormat().resolvedOptions().timeZone,
+        screen: {w: screen.width, h: screen.height, dpr: devicePixelRatio}
+      },
+      dataset: data.rows,
+      freeText: {
+        brief: document.getElementById('brief').value,
+        flow: document.getElementById('flow').value,
+        proto: document.getElementById('proto').value,
+        tools: document.getElementById('tools').value
+      }
+    };
+    return {total, band, fluent, payload};
+  }
+  function showResult(total, band, fluent, payload){
+    const el = document.getElementById('result');
+    el.style.display = 'block';
+    el.innerHTML = `
+      <h2>Score: ${total}/100 <span class="pill">${band}</span> <span class="pill">FLUENT: ${fluent}</span></h2>
+      <p class="muted">Auto-scored. Human review recommended for nuance.</p>
+      <pre style="white-space:pre-wrap;font-size:12px;background:#fff;border:1px solid #eee;padding:10px;border-radius:8px;">${JSON.stringify(payload, null, 2)}</pre>
+    `;
+  }
+  document.getElementById('start').addEventListener('click', async ()=>{
+    if(testStarted) return;
+    testStarted = true;
+    await goFullscreen();
+    document.getElementById('test').style.display = 'block';
+    renderTable();
+    startTimer();
+  });
+  document.getElementById('submit').addEventListener('click', async ()=>{
+    const {total, band, fluent, payload} = score();
+    showResult(total, band, fluent, payload);
+    if(WEBHOOK_URL){
+      try{ await fetch(WEBHOOK_URL, {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({total, ...payload})}); }catch(e){}
+    }
+  });
+  document.getElementById('copy').addEventListener('click', ()=>{
+    const pre = document.querySelector('#result pre'); if(!pre) return;
+    navigator.clipboard.writeText(pre.textContent);
+    alert('Copied results JSON.');
+  });
+  document.getElementById('download').addEventListener('click', ()=>{
+    const pre = document.querySelector('#result pre'); if(!pre) return;
+    const blob = new Blob([pre.textContent], {type:'application/json'});
+    const a = document.createElement('a');
+    a.href=URL.createObjectURL(blob);
+    a.download = `fretron_deepdive_${seed}.json`;
+    a.click();
+  });
+  document.getElementById('reset').addEventListener('click', ()=>location.reload());
+})();
+</script>
+      </div>
+    </div>
+  </section>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=67c8721fe4e9ced3083364f7" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="../js/webflow.js" type="text/javascript"></script>
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const hiddenFields = document.querySelectorAll("input[name='page_url']");
+    hiddenFields.forEach(function (field) {
+      field.value = window.location.href;
+    });
+  });
+</script>
+  <!--  Google Tag Manager (noscript)  -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M8976QN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!--  End Google Tag Manager (noscript)  -->
+  <script type="text/javascript">
+_linkedin_partner_id = "7774532";
+window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+</script>
+  <script type="text/javascript">
+(function(l) {
+if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
+window.lintrk.q=[]}
+var s = document.getElementsByTagName("script")[0];
+var b = document.createElement("script");
+b.type = "text/javascript";b.async = true;
+b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+s.parentNode.insertBefore(b, s);})(window.lintrk);
+</script>
+  <noscript>
+    <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=7774532&fmt=gif">
+  </noscript>
+  <!--  Email Validation code  -->
+  <script>
+(function () {
+  const isValidFormat = (email) => /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email);
+  const blockedDomains = ['mailinator.com','tempmail.com','10minutemail.com','yopmail.com',"gmail.com","mainl.com", "email.com"];
+  const setError = (input, msg) => {
+    input.setCustomValidity(msg);
+    input.reportValidity();
+    // focus to make UX clear
+    input.focus({preventScroll: true});
+  };
+  const clearError = (input) => input.setCustomValidity('');
+  // Use capture true so we run early, but we must stop other handlers too.
+  document.addEventListener('submit', function(e) {
+    const form = e.target.closest('form');
+    if (!form) return;
+    const emailInputs = form.querySelectorAll('input[type="email"]');
+    for (const input of emailInputs) {
+      const email = (input.value || '').trim();
+      clearError(input);
+      if (!email) continue; // required attribute will handle empty
+      if (!isValidFormat(email)) {
+        e.preventDefault();
+        e.stopImmediatePropagation(); // <-- STOP other listeners (Webflow etc.)
+        setError(input, 'Please enter a valid email address.');
+        return false; // also stop execution
+      }
+      const domain = (email.split('@')[1] || '').toLowerCase();
+      if (blockedDomains.includes(domain)) {
+        console.log("test");
+        e.preventDefault();
+        e.stopImmediatePropagation();
+        setError(input, 'Please enter a work email address.');
+        return false;
+      }
+    }
+    // If reached here, validation passed — let submission proceed normally.
+  }, true);
+  document.addEventListener('input', function(e) {
+    if (e.target && e.target.matches('input[type="email"]')) {
+      e.target.setCustomValidity('');
+    }
+  });
+})();
+</script>
+  <!-- End Email Validation code  -->
+  <!--  URL parameters  -->
+  <script>
+(function() {
+  // Get current URL parameters
+  const params = window.location.search; // includes '?' if present
+  if (!params || params === '?') return; // no params, do nothing
+  // Helper to append params to a given URL properly
+  function appendParamsToUrl(url) {
+    try {
+      // Separate the anchor part if exists (#section)
+      const [baseUrl, hash] = url.split('#');
+      // If URL already has ?, append with &, otherwise start with ?
+      const joiner = baseUrl.includes('?') ? '&' : '?';
+      const newUrl = baseUrl + joiner + params.substring(1) + (hash ? '#' + hash : '');
+      return newUrl;
+    } catch (e) {
+      console.warn('Invalid URL:', url);
+      return url;
+    }
+  }
+  // Apply to all <a> tags
+  document.querySelectorAll('a[href]').forEach(a => {
+    const href = a.getAttribute('href');
+    // Skip anchors, mailto:, tel:, javascript:, etc.
+    if (
+      !href ||
+      href.startsWith('#') ||
+      href.startsWith('mailto:') ||
+      href.startsWith('tel:') ||
+      href.startsWith('javascript:')
+    ) return;
+    // Build full URL relative to current domain for relative links
+    const newHref = appendParamsToUrl(href);
+    a.setAttribute('href', newHref);
+  });
+})();
+</script>
+  <!-- End URL parameters  -->
+  <script src="https://hubspotv2.use1-marketplace-1p-apps-prod-red.if.webflow.services/static/disable-hubspot-chatbot.js" type="text/javascript" async="" defer=""></script>
+  <script src="https://js.hs-scripts.com/7915166.js" type="text/javascript" async="" defer=""></script>
+</body>
+</html>

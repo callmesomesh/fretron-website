@@ -1,0 +1,29 @@
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M37.124 0C22.8569 0 11.249 11.6079 11.249 25.875C11.249 40.1421 22.8569 51.75 37.124 51.75C51.3911 51.75 62.999 40.1421 62.999 25.875C62.999 11.6079 51.3911 0 37.124 0Z" fill="url(#paint0_linear_785_29952)"/>
+<g clip-path="url(#clip0_785_29952)">
+<mask id="mask0_785_29952" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="7" y="7" width="58" height="58">
+<path d="M7 7.00055H64.56V64.5605H7V7.00055Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_785_29952)">
+<path d="M15.4321 59.5H32.4078" stroke="black" stroke-width="3.37266" stroke-miterlimit="10"/>
+<path d="M39.1528 59.5H56.1285" stroke="black" stroke-width="3.37266" stroke-miterlimit="10"/>
+<path d="M39.1525 59.5004C39.1525 61.363 37.6425 62.873 35.7799 62.873C33.9173 62.873 32.4072 61.363 32.4072 59.5004C32.4072 57.6378 33.9173 56.1277 35.7799 56.1277C37.6425 56.1277 39.1525 57.6378 39.1525 59.5004Z" stroke="black" stroke-width="3.37266" stroke-miterlimit="10"/>
+<path d="M15.4318 59.5004C15.4318 61.363 13.9218 62.873 12.0592 62.873C10.1966 62.873 8.68652 61.363 8.68652 59.5004C8.68652 57.6378 10.1966 56.1277 12.0592 56.1277C13.9218 56.1277 15.4318 57.6378 15.4318 59.5004Z" stroke="black" stroke-width="3.37266" stroke-miterlimit="10"/>
+<path d="M62.8737 59.5004C62.8737 61.363 61.3637 62.873 59.5011 62.873C57.6385 62.873 56.1284 61.363 56.1284 59.5004C56.1284 57.6378 57.6385 56.1277 59.5011 56.1277C61.3637 56.1277 62.8737 57.6378 62.8737 59.5004Z" stroke="black" stroke-width="3.37266" stroke-miterlimit="10"/>
+<path d="M35.7803 49.3836V56.1289" stroke="black" stroke-width="3.37266" stroke-miterlimit="10"/>
+<path d="M49.2711 22.1787H59.3891V49.3848H12.1719V22.1787H22.2898" stroke="black" stroke-width="3.37266" stroke-miterlimit="10"/>
+<path d="M49.2708 22.1773C49.2708 29.628 43.2308 35.668 35.7802 35.668C28.3295 35.668 22.2896 29.628 22.2896 22.1773C22.2896 14.7267 28.3295 8.68672 35.7802 8.68672C43.2308 8.68672 49.2708 14.7267 49.2708 22.1773Z" stroke="black" stroke-width="3.37266" stroke-miterlimit="10"/>
+<path d="M35.7803 22.1777V15.4324" stroke="black" stroke-width="3.37266" stroke-miterlimit="10"/>
+<path d="M35.7803 28.9219V25.5492" stroke="black" stroke-width="3.37266" stroke-miterlimit="10"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_785_29952" x1="25.499" y1="-5.2876" x2="62.999" y2="111.712" gradientUnits="userSpaceOnUse">
+<stop stop-color="#01BDE0" stop-opacity="0.1"/>
+<stop offset="1" stop-color="#01BDE0"/>
+</linearGradient>
+<clipPath id="clip0_785_29952">
+<rect width="57.56" height="57.56" fill="white" transform="translate(7 7)"/>
+</clipPath>
+</defs>
+</svg>

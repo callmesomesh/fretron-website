@@ -1,0 +1,27 @@
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M37.124 0C22.8569 0 11.249 11.6079 11.249 25.875C11.249 40.1421 22.8569 51.75 37.124 51.75C51.3911 51.75 62.999 40.1421 62.999 25.875C62.999 11.6079 51.3911 0 37.124 0Z" fill="url(#paint0_linear_610_31497)"/>
+<g clip-path="url(#clip0_610_31497)">
+<mask id="mask0_610_31497" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="7" y="7" width="59" height="59">
+<path d="M7.55322 7.55329H65.1132V65.1133H7.55322V7.55329Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_610_31497)">
+<path d="M59.942 56.6805H9.23975C9.23975 60.4058 12.2597 63.4258 15.9851 63.4258H53.1967C56.922 63.4258 59.942 60.4058 59.942 56.6805Z" stroke="black" stroke-width="3.37266" stroke-miterlimit="10"/>
+<path d="M54.8831 49.8239V56.6816H14.2988V32.9606H32.9609" stroke="black" stroke-width="3.37266" stroke-miterlimit="10"/>
+<path d="M43.0784 9.23797L32.9604 19.3559V49.8223H63.4268V9.23797H43.0784Z" stroke="black" stroke-width="3.37266" stroke-miterlimit="10"/>
+<path d="M43.0789 9.23945V19.3574H32.9609" stroke="black" stroke-width="3.37266" stroke-miterlimit="10"/>
+<path d="M39.2847 27.0584L41.8142 29.5879L46.8731 24.5289" stroke="black" stroke-width="3.37266" stroke-miterlimit="10"/>
+<path d="M49.8242 29.5879H56.5695" stroke="black" stroke-width="3.37266" stroke-miterlimit="10" stroke-linecap="square"/>
+<path d="M39.2842 37.1775L41.8137 39.707L46.8727 34.648" stroke="black" stroke-width="3.37266" stroke-miterlimit="10"/>
+<path d="M49.8237 39.707H56.569" stroke="black" stroke-width="3.37266" stroke-miterlimit="10" stroke-linecap="square"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_610_31497" x1="25.499" y1="-5.2876" x2="62.999" y2="111.712" gradientUnits="userSpaceOnUse">
+<stop stop-color="#01BDE0" stop-opacity="0.1"/>
+<stop offset="1" stop-color="#01BDE0"/>
+</linearGradient>
+<clipPath id="clip0_610_31497">
+<rect width="57.56" height="57.56" fill="white" transform="translate(7.55322 7.55273)"/>
+</clipPath>
+</defs>
+</svg>

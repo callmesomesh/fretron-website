@@ -1,0 +1,32 @@
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M37.124 0C22.8569 0 11.249 11.6079 11.249 25.875C11.249 40.1421 22.8569 51.75 37.124 51.75C51.3911 51.75 62.999 40.1421 62.999 25.875C62.999 11.6079 51.3911 0 37.124 0Z" fill="url(#paint0_linear_784_29300)"/>
+<g clip-path="url(#clip0_784_29300)">
+<mask id="mask0_784_29300" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="7" y="7" width="58" height="58">
+<path d="M7 7.00055H64.56V64.5605H7V7.00055Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_784_29300)">
+<path d="M22.1771 39.1543H8.68652V15.5457H22.1771V39.1543Z" stroke="black" stroke-width="3.37" stroke-miterlimit="10"/>
+<path d="M7.00049 56.0176H23.8638" stroke="black" stroke-width="3.37" stroke-miterlimit="10"/>
+<path d="M12.0596 39.1543V56.0176" stroke="black" stroke-width="3.37" stroke-miterlimit="10"/>
+</g>
+<path d="M18.8047 56.0176V39.1543" stroke="black" stroke-width="3.37" stroke-miterlimit="10"/>
+<mask id="mask1_784_29300" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="7" y="7" width="58" height="58">
+<path d="M7 7.00055H64.56V64.5605H7V7.00055Z" fill="white"/>
+</mask>
+<g mask="url(#mask1_784_29300)">
+<path d="M22.1768 22.2883H62.8735V32.4062H22.1768" stroke="black" stroke-width="3.37" stroke-miterlimit="10"/>
+</g>
+<path d="M55.9035 22.2902L49.1582 32.4082" stroke="black" stroke-width="3.37" stroke-miterlimit="10"/>
+<path d="M45.7854 22.2902L39.04 32.4082" stroke="black" stroke-width="3.37" stroke-miterlimit="10"/>
+<path d="M35.6677 22.2902L28.9224 32.4082" stroke="black" stroke-width="3.37" stroke-miterlimit="10"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_784_29300" x1="25.499" y1="-5.2876" x2="62.999" y2="111.712" gradientUnits="userSpaceOnUse">
+<stop stop-color="#01BDE0" stop-opacity="0.1"/>
+<stop offset="1" stop-color="#01BDE0"/>
+</linearGradient>
+<clipPath id="clip0_784_29300">
+<rect width="57.56" height="57.56" fill="white" transform="translate(7 7)"/>
+</clipPath>
+</defs>
+</svg>
